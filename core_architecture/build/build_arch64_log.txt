@@ -1,0 +1,9 @@
+architecture.c
+Microsoft (R) Incremental Linker Version 14.44.35217.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+/out:architecture.dll 
+/dll 
+/implib:build\architectureC.lib 
+/out:build\architectureC.dll 
+architecture.obj 

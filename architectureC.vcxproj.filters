@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source">
+      <UniqueIdentifier>{8cbb3422-30a3-41a2-a461-6a121a2818a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headers">
+      <UniqueIdentifier>{d6d85113-2011-4883-ad84-64c920f023fb}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="core_architecture\architecture.c" />
+    <ClCompile Include="core_architecture\color4.c" />
+    <ClCompile Include="core_architecture\main.c" />
+    <ClCompile Include="core_architecture\matscreen.c" />
+    <ClCompile Include="core_architecture\motionfs.c" />
+    <ClCompile Include="core_architecture\numerical.c" />
+    <ClCompile Include="core_architecture\shaderbasic.c" />
+    <ClCompile Include="core_architecture\vector4.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="core_architecture\architecture.h" />
+    <ClInclude Include="core_architecture\color4.h" />
+    <ClInclude Include="core_architecture\matscreen.h" />
+    <ClInclude Include="core_architecture\motionfs.h" />
+    <ClInclude Include="core_architecture\numerical.h" />
+    <ClInclude Include="core_architecture\shaderbasic.h" />
+    <ClInclude Include="core_architecture\vector4.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Object Include="core_architecture\vector4.o" />
+  </ItemGroup>
+</Project>
